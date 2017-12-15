@@ -1,0 +1,66 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black');
+body{
+	background-color: #0ff;
+	font-family: 'Archivo Black', cursive;
+	font-size:12px;
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	/*En cuestión a las cajas tipográficas para mayusculas normalmente se pone Qem(numero mayor o mitad equal x) y en minuscula Qem*/
+	font-size: 3ex;
+}
+header * {
+	/*display:block;
+	float:left;*/
+}
+div#content{
+	border:2px solid yellow;
+	background-color: white;
+	/*lo que no hay que hacer*/
+	width:800px;
+	margin:20px;
+	padding:50px; 
+}
+header, section, footer {
+	border: 1px solid violet;
+	width:80%;
+}
+section p {
+	width:60%;
+	float:left;
+}
+section img{
+	display: block;
+	width:30%;
+	float: right;
+}
+section hr {
+	display: block;
+	margin:5px auto;
+	width: 80%;
+}
+section iframe {
+	width:50%;
+	float:left;
+	height:315px;
+}
+footer{
+	clear:all;
+}
+footer ul{
+	display:inline-block;
+}
+
+footer ul li{
+	float:left;
+	width: 30%;
+	border: 1px solid green;
+	text-align:center;
+	list-style-type: none;
+}
+
+footer ul li a{
+	
+}
